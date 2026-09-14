@@ -38,12 +38,10 @@ jobs:
 
     - name: Validate Databricks Asset Bundle
       run: |
-        # Validate the DAB configuration to ensure syntax is correct
         databricks bundle validate
-      # In future phase, we'll need Databricks credentials:
-      # env:
-      #   DATABRICKS_HOST: ${{ secrets.DATABRICKS_HOST }}
-      #   DATABRICKS_TOKEN: ${{ secrets.DATABRICKS_TOKEN }}
+      env:
+        DATABRICKS_HOST: ${{ secrets.DATABRICKS_HOST }}
+        DATABRICKS_TOKEN: ${{ secrets.DATABRICKS_TOKEN }}
 
     # SonarQube scan configuration (commented out until credentials are set)
     # - name: SonarQube Scan
