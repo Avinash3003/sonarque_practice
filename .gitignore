@@ -39,3 +39,4 @@ coverage.xml
 .DS_Store
 .env
 mlflow.db
+test-reports/
