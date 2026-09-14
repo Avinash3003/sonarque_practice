@@ -1,0 +1,30 @@
+bundle:
+  name: unum_ml_migration
+
+# Global variables for the bundle
+variables:
+  catalog_name:
+    description: "Unity Catalog name"
+    default: "unum_ml_workspace"
+  schema_name:
+    description: "Unity Catalog schema name"
+    default: "default"
+  model_name:
+    description: "Registered model name"
+    default: "nested_json_dl_model"
+
+# Resources defined in other files
+include:
+  - resources/jobs.yml
+  - resources/serving.yml # We will enable this after the first training run
+
+targets:
+  dev:
+    default: true
+    workspace:
+      host: "https://dbc-3e96b1c7-5d3b.cloud.databricks.com"
+    # Use personal compute or a small job cluster for dev
+    
+  prod:
+    workspace:
+      host: "<configure-prod-workspace-url-later>"

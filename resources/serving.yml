@@ -1,0 +1,17 @@
+resources:
+  # Note: Serving endpoints are a preview/recent feature in DABs.
+  # Representing it as a custom resource or a model_serving_endpoints resource.
+  # This config assumes the model is already registered.
+  model_serving_endpoints:
+    ml_serving_endpoint:
+      name: "${var.model_name}-endpoint-${bundle.target}"
+      config:
+        served_entities:
+          - name: "model_entity"
+            entity_name: "${var.catalog_name}.${var.schema_name}.${var.model_name}"
+            entity_version: "3" # Version 3 (READY)
+            workload_size: "Small"
+            scale_to_zero_enabled: true
+      tags:
+        - key: "environment"
+          value: "${bundle.target}"

@@ -1,0 +1,2704 @@
+{
+    "records": [
+        {
+            "customer": {
+                "age": 19,
+                "location": {
+                    "city": "Bangalore",
+                    "country": "India"
+                }
+            },
+            "activity": {
+                "sessions": 48,
+                "avg_duration": 36.63
+            },
+            "purchase": {
+                "amount": 0,
+                "previous_orders": 3
+            },
+            "target": 0
+        },
+        {
+            "customer": {
+                "age": 61,
+                "location": {
+                    "city": "Bangalore",
+                    "country": "India"
+                }
+            },
+            "activity": {
+                "sessions": 48,
+                "avg_duration": 107.6
+            },
+            "purchase": {
+                "amount": 168.6,
+                "previous_orders": 1
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 31,
+                "location": {
+                    "city": "Bangalore",
+                    "country": "India"
+                }
+            },
+            "activity": {
+                "sessions": 15,
+                "avg_duration": 63.12
+            },
+            "purchase": {
+                "amount": 0,
+                "previous_orders": 0
+            },
+            "target": 0
+        },
+        {
+            "customer": {
+                "age": 32,
+                "location": {
+                    "city": "Berlin",
+                    "country": "Germany"
+                }
+            },
+            "activity": {
+                "sessions": 29,
+                "avg_duration": 72.77
+            },
+            "purchase": {
+                "amount": 0,
+                "previous_orders": 0
+            },
+            "target": 0
+        },
+        {
+            "customer": {
+                "age": 62,
+                "location": {
+                    "city": "Seattle",
+                    "country": "USA"
+                }
+            },
+            "activity": {
+                "sessions": 28,
+                "avg_duration": 44.13
+            },
+            "purchase": {
+                "amount": 0,
+                "previous_orders": 2
+            },
+            "target": 0
+        },
+        {
+            "customer": {
+                "age": 24,
+                "location": {
+                    "city": "London",
+                    "country": "UK"
+                }
+            },
+            "activity": {
+                "sessions": 6,
+                "avg_duration": 48.69
+            },
+            "purchase": {
+                "amount": 0,
+                "previous_orders": 5
+            },
+            "target": 0
+        },
+        {
+            "customer": {
+                "age": 69,
+                "location": {
+                    "city": "London",
+                    "country": "UK"
+                }
+            },
+            "activity": {
+                "sessions": 3,
+                "avg_duration": 88.92
+            },
+            "purchase": {
+                "amount": 0,
+                "previous_orders": 8
+            },
+            "target": 0
+        },
+        {
+            "customer": {
+                "age": 23,
+                "location": {
+                    "city": "Berlin",
+                    "country": "Germany"
+                }
+            },
+            "activity": {
+                "sessions": 36,
+                "avg_duration": 38.72
+            },
+            "purchase": {
+                "amount": 4309.92,
+                "previous_orders": 10
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 63,
+                "location": {
+                    "city": "Seattle",
+                    "country": "USA"
+                }
+            },
+            "activity": {
+                "sessions": 5,
+                "avg_duration": 10.27
+            },
+            "purchase": {
+                "amount": 0,
+                "previous_orders": 3
+            },
+            "target": 0
+        },
+        {
+            "customer": {
+                "age": 32,
+                "location": {
+                    "city": "Bangalore",
+                    "country": "India"
+                }
+            },
+            "activity": {
+                "sessions": 7,
+                "avg_duration": 48.71
+            },
+            "purchase": {
+                "amount": 0,
+                "previous_orders": 7
+            },
+            "target": 0
+        },
+        {
+            "customer": {
+                "age": 28,
+                "location": {
+                    "city": "London",
+                    "country": "UK"
+                }
+            },
+            "activity": {
+                "sessions": 24,
+                "avg_duration": 45.86
+            },
+            "purchase": {
+                "amount": 4683.91,
+                "previous_orders": 10
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 56,
+                "location": {
+                    "city": "Bangalore",
+                    "country": "India"
+                }
+            },
+            "activity": {
+                "sessions": 41,
+                "avg_duration": 24.68
+            },
+            "purchase": {
+                "amount": 1903.48,
+                "previous_orders": 3
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 61,
+                "location": {
+                    "city": "Seattle",
+                    "country": "USA"
+                }
+            },
+            "activity": {
+                "sessions": 21,
+                "avg_duration": 101.93
+            },
+            "purchase": {
+                "amount": 0,
+                "previous_orders": 0
+            },
+            "target": 0
+        },
+        {
+            "customer": {
+                "age": 69,
+                "location": {
+                    "city": "Bangalore",
+                    "country": "India"
+                }
+            },
+            "activity": {
+                "sessions": 21,
+                "avg_duration": 51.13
+            },
+            "purchase": {
+                "amount": 0,
+                "previous_orders": 1
+            },
+            "target": 0
+        },
+        {
+            "customer": {
+                "age": 31,
+                "location": {
+                    "city": "London",
+                    "country": "UK"
+                }
+            },
+            "activity": {
+                "sessions": 42,
+                "avg_duration": 62.41
+            },
+            "purchase": {
+                "amount": 1331.75,
+                "previous_orders": 10
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 65,
+                "location": {
+                    "city": "Seattle",
+                    "country": "USA"
+                }
+            },
+            "activity": {
+                "sessions": 36,
+                "avg_duration": 66.98
+            },
+            "purchase": {
+                "amount": 2921.83,
+                "previous_orders": 9
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 32,
+                "location": {
+                    "city": "London",
+                    "country": "UK"
+                }
+            },
+            "activity": {
+                "sessions": 9,
+                "avg_duration": 63.6
+            },
+            "purchase": {
+                "amount": 0,
+                "previous_orders": 1
+            },
+            "target": 0
+        },
+        {
+            "customer": {
+                "age": 27,
+                "location": {
+                    "city": "Bangalore",
+                    "country": "India"
+                }
+            },
+            "activity": {
+                "sessions": 41,
+                "avg_duration": 23.4
+            },
+            "purchase": {
+                "amount": 327.0,
+                "previous_orders": 10
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 56,
+                "location": {
+                    "city": "Berlin",
+                    "country": "Germany"
+                }
+            },
+            "activity": {
+                "sessions": 30,
+                "avg_duration": 65.85
+            },
+            "purchase": {
+                "amount": 67.29,
+                "previous_orders": 8
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 61,
+                "location": {
+                    "city": "Bangalore",
+                    "country": "India"
+                }
+            },
+            "activity": {
+                "sessions": 35,
+                "avg_duration": 91.35
+            },
+            "purchase": {
+                "amount": 1474.57,
+                "previous_orders": 10
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 47,
+                "location": {
+                    "city": "Seattle",
+                    "country": "USA"
+                }
+            },
+            "activity": {
+                "sessions": 1,
+                "avg_duration": 114.69
+            },
+            "purchase": {
+                "amount": 0,
+                "previous_orders": 4
+            },
+            "target": 0
+        },
+        {
+            "customer": {
+                "age": 50,
+                "location": {
+                    "city": "Seattle",
+                    "country": "USA"
+                }
+            },
+            "activity": {
+                "sessions": 7,
+                "avg_duration": 105.11
+            },
+            "purchase": {
+                "amount": 0,
+                "previous_orders": 4
+            },
+            "target": 0
+        },
+        {
+            "customer": {
+                "age": 27,
+                "location": {
+                    "city": "Seattle",
+                    "country": "USA"
+                }
+            },
+            "activity": {
+                "sessions": 24,
+                "avg_duration": 92.69
+            },
+            "purchase": {
+                "amount": 4612.95,
+                "previous_orders": 8
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 56,
+                "location": {
+                    "city": "Bangalore",
+                    "country": "India"
+                }
+            },
+            "activity": {
+                "sessions": 21,
+                "avg_duration": 61.19
+            },
+            "purchase": {
+                "amount": 4394.82,
+                "previous_orders": 1
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 33,
+                "location": {
+                    "city": "London",
+                    "country": "UK"
+                }
+            },
+            "activity": {
+                "sessions": 4,
+                "avg_duration": 32.7
+            },
+            "purchase": {
+                "amount": 437.41,
+                "previous_orders": 9
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 70,
+                "location": {
+                    "city": "Berlin",
+                    "country": "Germany"
+                }
+            },
+            "activity": {
+                "sessions": 5,
+                "avg_duration": 117.47
+            },
+            "purchase": {
+                "amount": 650.67,
+                "previous_orders": 8
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 53,
+                "location": {
+                    "city": "Berlin",
+                    "country": "Germany"
+                }
+            },
+            "activity": {
+                "sessions": 11,
+                "avg_duration": 35.48
+            },
+            "purchase": {
+                "amount": 1066.87,
+                "previous_orders": 9
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 63,
+                "location": {
+                    "city": "Seattle",
+                    "country": "USA"
+                }
+            },
+            "activity": {
+                "sessions": 20,
+                "avg_duration": 50.88
+            },
+            "purchase": {
+                "amount": 2196.12,
+                "previous_orders": 10
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 25,
+                "location": {
+                    "city": "Berlin",
+                    "country": "Germany"
+                }
+            },
+            "activity": {
+                "sessions": 16,
+                "avg_duration": 30.84
+            },
+            "purchase": {
+                "amount": 0,
+                "previous_orders": 5
+            },
+            "target": 0
+        },
+        {
+            "customer": {
+                "age": 55,
+                "location": {
+                    "city": "Seattle",
+                    "country": "USA"
+                }
+            },
+            "activity": {
+                "sessions": 15,
+                "avg_duration": 5.83
+            },
+            "purchase": {
+                "amount": 346.33,
+                "previous_orders": 10
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 39,
+                "location": {
+                    "city": "Bangalore",
+                    "country": "India"
+                }
+            },
+            "activity": {
+                "sessions": 5,
+                "avg_duration": 64.13
+            },
+            "purchase": {
+                "amount": 0,
+                "previous_orders": 4
+            },
+            "target": 0
+        },
+        {
+            "customer": {
+                "age": 52,
+                "location": {
+                    "city": "Seattle",
+                    "country": "USA"
+                }
+            },
+            "activity": {
+                "sessions": 9,
+                "avg_duration": 88.19
+            },
+            "purchase": {
+                "amount": 1222.56,
+                "previous_orders": 9
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 69,
+                "location": {
+                    "city": "Berlin",
+                    "country": "Germany"
+                }
+            },
+            "activity": {
+                "sessions": 27,
+                "avg_duration": 26.9
+            },
+            "purchase": {
+                "amount": 1777.94,
+                "previous_orders": 1
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 47,
+                "location": {
+                    "city": "Berlin",
+                    "country": "Germany"
+                }
+            },
+            "activity": {
+                "sessions": 47,
+                "avg_duration": 11.23
+            },
+            "purchase": {
+                "amount": 501.11,
+                "previous_orders": 10
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 64,
+                "location": {
+                    "city": "Berlin",
+                    "country": "Germany"
+                }
+            },
+            "activity": {
+                "sessions": 22,
+                "avg_duration": 97.07
+            },
+            "purchase": {
+                "amount": 0,
+                "previous_orders": 1
+            },
+            "target": 0
+        },
+        {
+            "customer": {
+                "age": 52,
+                "location": {
+                    "city": "Seattle",
+                    "country": "USA"
+                }
+            },
+            "activity": {
+                "sessions": 29,
+                "avg_duration": 21.12
+            },
+            "purchase": {
+                "amount": 0,
+                "previous_orders": 2
+            },
+            "target": 0
+        },
+        {
+            "customer": {
+                "age": 22,
+                "location": {
+                    "city": "Seattle",
+                    "country": "USA"
+                }
+            },
+            "activity": {
+                "sessions": 29,
+                "avg_duration": 97.92
+            },
+            "purchase": {
+                "amount": 0,
+                "previous_orders": 8
+            },
+            "target": 0
+        },
+        {
+            "customer": {
+                "age": 23,
+                "location": {
+                    "city": "Bangalore",
+                    "country": "India"
+                }
+            },
+            "activity": {
+                "sessions": 49,
+                "avg_duration": 102.6
+            },
+            "purchase": {
+                "amount": 2411.98,
+                "previous_orders": 2
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 21,
+                "location": {
+                    "city": "Berlin",
+                    "country": "Germany"
+                }
+            },
+            "activity": {
+                "sessions": 11,
+                "avg_duration": 48.58
+            },
+            "purchase": {
+                "amount": 0,
+                "previous_orders": 6
+            },
+            "target": 0
+        },
+        {
+            "customer": {
+                "age": 36,
+                "location": {
+                    "city": "Berlin",
+                    "country": "Germany"
+                }
+            },
+            "activity": {
+                "sessions": 28,
+                "avg_duration": 85.11
+            },
+            "purchase": {
+                "amount": 2438.49,
+                "previous_orders": 8
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 36,
+                "location": {
+                    "city": "Seattle",
+                    "country": "USA"
+                }
+            },
+            "activity": {
+                "sessions": 14,
+                "avg_duration": 116.4
+            },
+            "purchase": {
+                "amount": 314.18,
+                "previous_orders": 9
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 21,
+                "location": {
+                    "city": "London",
+                    "country": "UK"
+                }
+            },
+            "activity": {
+                "sessions": 4,
+                "avg_duration": 72.18
+            },
+            "purchase": {
+                "amount": 0,
+                "previous_orders": 8
+            },
+            "target": 0
+        },
+        {
+            "customer": {
+                "age": 21,
+                "location": {
+                    "city": "Seattle",
+                    "country": "USA"
+                }
+            },
+            "activity": {
+                "sessions": 33,
+                "avg_duration": 14.21
+            },
+            "purchase": {
+                "amount": 0,
+                "previous_orders": 2
+            },
+            "target": 0
+        },
+        {
+            "customer": {
+                "age": 61,
+                "location": {
+                    "city": "Bangalore",
+                    "country": "India"
+                }
+            },
+            "activity": {
+                "sessions": 16,
+                "avg_duration": 51.43
+            },
+            "purchase": {
+                "amount": 2976.65,
+                "previous_orders": 9
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 44,
+                "location": {
+                    "city": "Bangalore",
+                    "country": "India"
+                }
+            },
+            "activity": {
+                "sessions": 43,
+                "avg_duration": 72.12
+            },
+            "purchase": {
+                "amount": 1311.22,
+                "previous_orders": 8
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 33,
+                "location": {
+                    "city": "London",
+                    "country": "UK"
+                }
+            },
+            "activity": {
+                "sessions": 17,
+                "avg_duration": 50.52
+            },
+            "purchase": {
+                "amount": 2291.55,
+                "previous_orders": 10
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 18,
+                "location": {
+                    "city": "Bangalore",
+                    "country": "India"
+                }
+            },
+            "activity": {
+                "sessions": 30,
+                "avg_duration": 76.43
+            },
+            "purchase": {
+                "amount": 375.57,
+                "previous_orders": 9
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 50,
+                "location": {
+                    "city": "Seattle",
+                    "country": "USA"
+                }
+            },
+            "activity": {
+                "sessions": 17,
+                "avg_duration": 20.23
+            },
+            "purchase": {
+                "amount": 4397.56,
+                "previous_orders": 5
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 36,
+                "location": {
+                    "city": "London",
+                    "country": "UK"
+                }
+            },
+            "activity": {
+                "sessions": 11,
+                "avg_duration": 55.39
+            },
+            "purchase": {
+                "amount": 3062.27,
+                "previous_orders": 8
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 60,
+                "location": {
+                    "city": "Bangalore",
+                    "country": "India"
+                }
+            },
+            "activity": {
+                "sessions": 36,
+                "avg_duration": 39.43
+            },
+            "purchase": {
+                "amount": 4391.85,
+                "previous_orders": 10
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 25,
+                "location": {
+                    "city": "London",
+                    "country": "UK"
+                }
+            },
+            "activity": {
+                "sessions": 7,
+                "avg_duration": 90.38
+            },
+            "purchase": {
+                "amount": 0,
+                "previous_orders": 2
+            },
+            "target": 0
+        },
+        {
+            "customer": {
+                "age": 63,
+                "location": {
+                    "city": "Seattle",
+                    "country": "USA"
+                }
+            },
+            "activity": {
+                "sessions": 22,
+                "avg_duration": 28.41
+            },
+            "purchase": {
+                "amount": 2531.99,
+                "previous_orders": 10
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 21,
+                "location": {
+                    "city": "London",
+                    "country": "UK"
+                }
+            },
+            "activity": {
+                "sessions": 6,
+                "avg_duration": 77.94
+            },
+            "purchase": {
+                "amount": 0,
+                "previous_orders": 4
+            },
+            "target": 0
+        },
+        {
+            "customer": {
+                "age": 67,
+                "location": {
+                    "city": "London",
+                    "country": "UK"
+                }
+            },
+            "activity": {
+                "sessions": 9,
+                "avg_duration": 78.27
+            },
+            "purchase": {
+                "amount": 0,
+                "previous_orders": 4
+            },
+            "target": 0
+        },
+        {
+            "customer": {
+                "age": 53,
+                "location": {
+                    "city": "Berlin",
+                    "country": "Germany"
+                }
+            },
+            "activity": {
+                "sessions": 46,
+                "avg_duration": 54.18
+            },
+            "purchase": {
+                "amount": 4725.8,
+                "previous_orders": 0
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 52,
+                "location": {
+                    "city": "Seattle",
+                    "country": "USA"
+                }
+            },
+            "activity": {
+                "sessions": 3,
+                "avg_duration": 100.98
+            },
+            "purchase": {
+                "amount": 2154.64,
+                "previous_orders": 9
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 37,
+                "location": {
+                    "city": "Bangalore",
+                    "country": "India"
+                }
+            },
+            "activity": {
+                "sessions": 24,
+                "avg_duration": 108.38
+            },
+            "purchase": {
+                "amount": 0,
+                "previous_orders": 0
+            },
+            "target": 0
+        },
+        {
+            "customer": {
+                "age": 61,
+                "location": {
+                    "city": "Seattle",
+                    "country": "USA"
+                }
+            },
+            "activity": {
+                "sessions": 16,
+                "avg_duration": 81.7
+            },
+            "purchase": {
+                "amount": 4421.83,
+                "previous_orders": 5
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 57,
+                "location": {
+                    "city": "Berlin",
+                    "country": "Germany"
+                }
+            },
+            "activity": {
+                "sessions": 48,
+                "avg_duration": 22.77
+            },
+            "purchase": {
+                "amount": 4881.27,
+                "previous_orders": 3
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 44,
+                "location": {
+                    "city": "Seattle",
+                    "country": "USA"
+                }
+            },
+            "activity": {
+                "sessions": 2,
+                "avg_duration": 25.63
+            },
+            "purchase": {
+                "amount": 0,
+                "previous_orders": 5
+            },
+            "target": 0
+        },
+        {
+            "customer": {
+                "age": 69,
+                "location": {
+                    "city": "Berlin",
+                    "country": "Germany"
+                }
+            },
+            "activity": {
+                "sessions": 43,
+                "avg_duration": 104.37
+            },
+            "purchase": {
+                "amount": 3939.0,
+                "previous_orders": 3
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 42,
+                "location": {
+                    "city": "Bangalore",
+                    "country": "India"
+                }
+            },
+            "activity": {
+                "sessions": 3,
+                "avg_duration": 103.74
+            },
+            "purchase": {
+                "amount": 0,
+                "previous_orders": 3
+            },
+            "target": 0
+        },
+        {
+            "customer": {
+                "age": 40,
+                "location": {
+                    "city": "Berlin",
+                    "country": "Germany"
+                }
+            },
+            "activity": {
+                "sessions": 20,
+                "avg_duration": 99.36
+            },
+            "purchase": {
+                "amount": 0,
+                "previous_orders": 3
+            },
+            "target": 0
+        },
+        {
+            "customer": {
+                "age": 43,
+                "location": {
+                    "city": "Seattle",
+                    "country": "USA"
+                }
+            },
+            "activity": {
+                "sessions": 22,
+                "avg_duration": 37.04
+            },
+            "purchase": {
+                "amount": 0,
+                "previous_orders": 1
+            },
+            "target": 0
+        },
+        {
+            "customer": {
+                "age": 40,
+                "location": {
+                    "city": "London",
+                    "country": "UK"
+                }
+            },
+            "activity": {
+                "sessions": 42,
+                "avg_duration": 63.58
+            },
+            "purchase": {
+                "amount": 2685.72,
+                "previous_orders": 10
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 25,
+                "location": {
+                    "city": "Bangalore",
+                    "country": "India"
+                }
+            },
+            "activity": {
+                "sessions": 17,
+                "avg_duration": 25.54
+            },
+            "purchase": {
+                "amount": 0,
+                "previous_orders": 4
+            },
+            "target": 0
+        },
+        {
+            "customer": {
+                "age": 40,
+                "location": {
+                    "city": "Berlin",
+                    "country": "Germany"
+                }
+            },
+            "activity": {
+                "sessions": 47,
+                "avg_duration": 95.44
+            },
+            "purchase": {
+                "amount": 2562.0,
+                "previous_orders": 6
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 54,
+                "location": {
+                    "city": "Berlin",
+                    "country": "Germany"
+                }
+            },
+            "activity": {
+                "sessions": 13,
+                "avg_duration": 34.29
+            },
+            "purchase": {
+                "amount": 0,
+                "previous_orders": 6
+            },
+            "target": 0
+        },
+        {
+            "customer": {
+                "age": 41,
+                "location": {
+                    "city": "Seattle",
+                    "country": "USA"
+                }
+            },
+            "activity": {
+                "sessions": 28,
+                "avg_duration": 13.05
+            },
+            "purchase": {
+                "amount": 3119.55,
+                "previous_orders": 10
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 64,
+                "location": {
+                    "city": "Bangalore",
+                    "country": "India"
+                }
+            },
+            "activity": {
+                "sessions": 20,
+                "avg_duration": 63.32
+            },
+            "purchase": {
+                "amount": 2017.98,
+                "previous_orders": 10
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 53,
+                "location": {
+                    "city": "London",
+                    "country": "UK"
+                }
+            },
+            "activity": {
+                "sessions": 9,
+                "avg_duration": 27.06
+            },
+            "purchase": {
+                "amount": 3389.82,
+                "previous_orders": 10
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 57,
+                "location": {
+                    "city": "Seattle",
+                    "country": "USA"
+                }
+            },
+            "activity": {
+                "sessions": 37,
+                "avg_duration": 39.61
+            },
+            "purchase": {
+                "amount": 1526.34,
+                "previous_orders": 8
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 45,
+                "location": {
+                    "city": "Seattle",
+                    "country": "USA"
+                }
+            },
+            "activity": {
+                "sessions": 38,
+                "avg_duration": 74.77
+            },
+            "purchase": {
+                "amount": 2216.38,
+                "previous_orders": 5
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 50,
+                "location": {
+                    "city": "Seattle",
+                    "country": "USA"
+                }
+            },
+            "activity": {
+                "sessions": 31,
+                "avg_duration": 96.28
+            },
+            "purchase": {
+                "amount": 1426.09,
+                "previous_orders": 2
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 23,
+                "location": {
+                    "city": "London",
+                    "country": "UK"
+                }
+            },
+            "activity": {
+                "sessions": 49,
+                "avg_duration": 32.01
+            },
+            "purchase": {
+                "amount": 1003.66,
+                "previous_orders": 4
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 20,
+                "location": {
+                    "city": "Bangalore",
+                    "country": "India"
+                }
+            },
+            "activity": {
+                "sessions": 16,
+                "avg_duration": 118.15
+            },
+            "purchase": {
+                "amount": 373.41,
+                "previous_orders": 9
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 58,
+                "location": {
+                    "city": "Berlin",
+                    "country": "Germany"
+                }
+            },
+            "activity": {
+                "sessions": 37,
+                "avg_duration": 27.36
+            },
+            "purchase": {
+                "amount": 1227.48,
+                "previous_orders": 6
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 66,
+                "location": {
+                    "city": "Bangalore",
+                    "country": "India"
+                }
+            },
+            "activity": {
+                "sessions": 50,
+                "avg_duration": 106.83
+            },
+            "purchase": {
+                "amount": 4022.51,
+                "previous_orders": 6
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 21,
+                "location": {
+                    "city": "Berlin",
+                    "country": "Germany"
+                }
+            },
+            "activity": {
+                "sessions": 36,
+                "avg_duration": 33.66
+            },
+            "purchase": {
+                "amount": 0,
+                "previous_orders": 1
+            },
+            "target": 0
+        },
+        {
+            "customer": {
+                "age": 60,
+                "location": {
+                    "city": "Berlin",
+                    "country": "Germany"
+                }
+            },
+            "activity": {
+                "sessions": 34,
+                "avg_duration": 118.61
+            },
+            "purchase": {
+                "amount": 3778.7,
+                "previous_orders": 9
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 57,
+                "location": {
+                    "city": "Berlin",
+                    "country": "Germany"
+                }
+            },
+            "activity": {
+                "sessions": 47,
+                "avg_duration": 107.58
+            },
+            "purchase": {
+                "amount": 2743.88,
+                "previous_orders": 6
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 65,
+                "location": {
+                    "city": "Seattle",
+                    "country": "USA"
+                }
+            },
+            "activity": {
+                "sessions": 31,
+                "avg_duration": 56.76
+            },
+            "purchase": {
+                "amount": 1393.78,
+                "previous_orders": 3
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 58,
+                "location": {
+                    "city": "Berlin",
+                    "country": "Germany"
+                }
+            },
+            "activity": {
+                "sessions": 16,
+                "avg_duration": 36.58
+            },
+            "purchase": {
+                "amount": 0,
+                "previous_orders": 1
+            },
+            "target": 0
+        },
+        {
+            "customer": {
+                "age": 35,
+                "location": {
+                    "city": "Seattle",
+                    "country": "USA"
+                }
+            },
+            "activity": {
+                "sessions": 22,
+                "avg_duration": 41.77
+            },
+            "purchase": {
+                "amount": 0,
+                "previous_orders": 8
+            },
+            "target": 0
+        },
+        {
+            "customer": {
+                "age": 32,
+                "location": {
+                    "city": "Seattle",
+                    "country": "USA"
+                }
+            },
+            "activity": {
+                "sessions": 25,
+                "avg_duration": 84.8
+            },
+            "purchase": {
+                "amount": 0,
+                "previous_orders": 3
+            },
+            "target": 0
+        },
+        {
+            "customer": {
+                "age": 39,
+                "location": {
+                    "city": "Berlin",
+                    "country": "Germany"
+                }
+            },
+            "activity": {
+                "sessions": 35,
+                "avg_duration": 58.58
+            },
+            "purchase": {
+                "amount": 0,
+                "previous_orders": 0
+            },
+            "target": 0
+        },
+        {
+            "customer": {
+                "age": 42,
+                "location": {
+                    "city": "Berlin",
+                    "country": "Germany"
+                }
+            },
+            "activity": {
+                "sessions": 50,
+                "avg_duration": 72.17
+            },
+            "purchase": {
+                "amount": 3830.32,
+                "previous_orders": 0
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 48,
+                "location": {
+                    "city": "Berlin",
+                    "country": "Germany"
+                }
+            },
+            "activity": {
+                "sessions": 1,
+                "avg_duration": 113.42
+            },
+            "purchase": {
+                "amount": 0,
+                "previous_orders": 4
+            },
+            "target": 0
+        },
+        {
+            "customer": {
+                "age": 52,
+                "location": {
+                    "city": "Berlin",
+                    "country": "Germany"
+                }
+            },
+            "activity": {
+                "sessions": 48,
+                "avg_duration": 89.48
+            },
+            "purchase": {
+                "amount": 2446.27,
+                "previous_orders": 9
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 45,
+                "location": {
+                    "city": "London",
+                    "country": "UK"
+                }
+            },
+            "activity": {
+                "sessions": 32,
+                "avg_duration": 8.34
+            },
+            "purchase": {
+                "amount": 3992.73,
+                "previous_orders": 5
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 47,
+                "location": {
+                    "city": "Seattle",
+                    "country": "USA"
+                }
+            },
+            "activity": {
+                "sessions": 9,
+                "avg_duration": 117.78
+            },
+            "purchase": {
+                "amount": 0,
+                "previous_orders": 8
+            },
+            "target": 0
+        },
+        {
+            "customer": {
+                "age": 55,
+                "location": {
+                    "city": "Berlin",
+                    "country": "Germany"
+                }
+            },
+            "activity": {
+                "sessions": 37,
+                "avg_duration": 81.24
+            },
+            "purchase": {
+                "amount": 687.14,
+                "previous_orders": 1
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 29,
+                "location": {
+                    "city": "Berlin",
+                    "country": "Germany"
+                }
+            },
+            "activity": {
+                "sessions": 4,
+                "avg_duration": 34.92
+            },
+            "purchase": {
+                "amount": 0,
+                "previous_orders": 5
+            },
+            "target": 0
+        },
+        {
+            "customer": {
+                "age": 39,
+                "location": {
+                    "city": "London",
+                    "country": "UK"
+                }
+            },
+            "activity": {
+                "sessions": 49,
+                "avg_duration": 106.16
+            },
+            "purchase": {
+                "amount": 4161.3,
+                "previous_orders": 4
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 23,
+                "location": {
+                    "city": "London",
+                    "country": "UK"
+                }
+            },
+            "activity": {
+                "sessions": 31,
+                "avg_duration": 7.23
+            },
+            "purchase": {
+                "amount": 0,
+                "previous_orders": 8
+            },
+            "target": 0
+        },
+        {
+            "customer": {
+                "age": 32,
+                "location": {
+                    "city": "London",
+                    "country": "UK"
+                }
+            },
+            "activity": {
+                "sessions": 42,
+                "avg_duration": 12.89
+            },
+            "purchase": {
+                "amount": 164.84,
+                "previous_orders": 10
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 30,
+                "location": {
+                    "city": "Seattle",
+                    "country": "USA"
+                }
+            },
+            "activity": {
+                "sessions": 2,
+                "avg_duration": 76.45
+            },
+            "purchase": {
+                "amount": 0,
+                "previous_orders": 3
+            },
+            "target": 0
+        },
+        {
+            "customer": {
+                "age": 54,
+                "location": {
+                    "city": "Bangalore",
+                    "country": "India"
+                }
+            },
+            "activity": {
+                "sessions": 14,
+                "avg_duration": 58.48
+            },
+            "purchase": {
+                "amount": 847.27,
+                "previous_orders": 4
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 67,
+                "location": {
+                    "city": "Bangalore",
+                    "country": "India"
+                }
+            },
+            "activity": {
+                "sessions": 11,
+                "avg_duration": 115.94
+            },
+            "purchase": {
+                "amount": 0,
+                "previous_orders": 1
+            },
+            "target": 0
+        },
+        {
+            "customer": {
+                "age": 54,
+                "location": {
+                    "city": "London",
+                    "country": "UK"
+                }
+            },
+            "activity": {
+                "sessions": 44,
+                "avg_duration": 109.42
+            },
+            "purchase": {
+                "amount": 3577.92,
+                "previous_orders": 6
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 55,
+                "location": {
+                    "city": "Bangalore",
+                    "country": "India"
+                }
+            },
+            "activity": {
+                "sessions": 45,
+                "avg_duration": 100.52
+            },
+            "purchase": {
+                "amount": 3864.68,
+                "previous_orders": 3
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 68,
+                "location": {
+                    "city": "Bangalore",
+                    "country": "India"
+                }
+            },
+            "activity": {
+                "sessions": 37,
+                "avg_duration": 95.0
+            },
+            "purchase": {
+                "amount": 3310.99,
+                "previous_orders": 5
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 50,
+                "location": {
+                    "city": "Bangalore",
+                    "country": "India"
+                }
+            },
+            "activity": {
+                "sessions": 42,
+                "avg_duration": 44.24
+            },
+            "purchase": {
+                "amount": 536.64,
+                "previous_orders": 6
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 58,
+                "location": {
+                    "city": "London",
+                    "country": "UK"
+                }
+            },
+            "activity": {
+                "sessions": 30,
+                "avg_duration": 86.34
+            },
+            "purchase": {
+                "amount": 2613.52,
+                "previous_orders": 6
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 57,
+                "location": {
+                    "city": "London",
+                    "country": "UK"
+                }
+            },
+            "activity": {
+                "sessions": 35,
+                "avg_duration": 94.08
+            },
+            "purchase": {
+                "amount": 3657.82,
+                "previous_orders": 7
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 38,
+                "location": {
+                    "city": "London",
+                    "country": "UK"
+                }
+            },
+            "activity": {
+                "sessions": 16,
+                "avg_duration": 100.53
+            },
+            "purchase": {
+                "amount": 0,
+                "previous_orders": 1
+            },
+            "target": 0
+        },
+        {
+            "customer": {
+                "age": 33,
+                "location": {
+                    "city": "Berlin",
+                    "country": "Germany"
+                }
+            },
+            "activity": {
+                "sessions": 49,
+                "avg_duration": 58.44
+            },
+            "purchase": {
+                "amount": 1688.62,
+                "previous_orders": 9
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 38,
+                "location": {
+                    "city": "Berlin",
+                    "country": "Germany"
+                }
+            },
+            "activity": {
+                "sessions": 12,
+                "avg_duration": 61.07
+            },
+            "purchase": {
+                "amount": 0,
+                "previous_orders": 5
+            },
+            "target": 0
+        },
+        {
+            "customer": {
+                "age": 35,
+                "location": {
+                    "city": "London",
+                    "country": "UK"
+                }
+            },
+            "activity": {
+                "sessions": 39,
+                "avg_duration": 85.64
+            },
+            "purchase": {
+                "amount": 2587.97,
+                "previous_orders": 4
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 23,
+                "location": {
+                    "city": "Seattle",
+                    "country": "USA"
+                }
+            },
+            "activity": {
+                "sessions": 16,
+                "avg_duration": 87.81
+            },
+            "purchase": {
+                "amount": 0,
+                "previous_orders": 7
+            },
+            "target": 0
+        },
+        {
+            "customer": {
+                "age": 62,
+                "location": {
+                    "city": "Seattle",
+                    "country": "USA"
+                }
+            },
+            "activity": {
+                "sessions": 31,
+                "avg_duration": 79.28
+            },
+            "purchase": {
+                "amount": 96.04,
+                "previous_orders": 7
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 32,
+                "location": {
+                    "city": "London",
+                    "country": "UK"
+                }
+            },
+            "activity": {
+                "sessions": 26,
+                "avg_duration": 84.56
+            },
+            "purchase": {
+                "amount": 0,
+                "previous_orders": 4
+            },
+            "target": 0
+        },
+        {
+            "customer": {
+                "age": 48,
+                "location": {
+                    "city": "London",
+                    "country": "UK"
+                }
+            },
+            "activity": {
+                "sessions": 36,
+                "avg_duration": 66.06
+            },
+            "purchase": {
+                "amount": 2756.44,
+                "previous_orders": 6
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 62,
+                "location": {
+                    "city": "London",
+                    "country": "UK"
+                }
+            },
+            "activity": {
+                "sessions": 30,
+                "avg_duration": 36.16
+            },
+            "purchase": {
+                "amount": 3609.21,
+                "previous_orders": 4
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 25,
+                "location": {
+                    "city": "London",
+                    "country": "UK"
+                }
+            },
+            "activity": {
+                "sessions": 48,
+                "avg_duration": 66.62
+            },
+            "purchase": {
+                "amount": 0,
+                "previous_orders": 2
+            },
+            "target": 0
+        },
+        {
+            "customer": {
+                "age": 35,
+                "location": {
+                    "city": "Berlin",
+                    "country": "Germany"
+                }
+            },
+            "activity": {
+                "sessions": 47,
+                "avg_duration": 72.8
+            },
+            "purchase": {
+                "amount": 4902.75,
+                "previous_orders": 8
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 36,
+                "location": {
+                    "city": "Seattle",
+                    "country": "USA"
+                }
+            },
+            "activity": {
+                "sessions": 15,
+                "avg_duration": 46.5
+            },
+            "purchase": {
+                "amount": 0,
+                "previous_orders": 4
+            },
+            "target": 0
+        },
+        {
+            "customer": {
+                "age": 35,
+                "location": {
+                    "city": "Seattle",
+                    "country": "USA"
+                }
+            },
+            "activity": {
+                "sessions": 3,
+                "avg_duration": 117.04
+            },
+            "purchase": {
+                "amount": 0,
+                "previous_orders": 8
+            },
+            "target": 0
+        },
+        {
+            "customer": {
+                "age": 58,
+                "location": {
+                    "city": "Seattle",
+                    "country": "USA"
+                }
+            },
+            "activity": {
+                "sessions": 49,
+                "avg_duration": 61.45
+            },
+            "purchase": {
+                "amount": 2352.29,
+                "previous_orders": 0
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 39,
+                "location": {
+                    "city": "Berlin",
+                    "country": "Germany"
+                }
+            },
+            "activity": {
+                "sessions": 12,
+                "avg_duration": 116.03
+            },
+            "purchase": {
+                "amount": 0,
+                "previous_orders": 4
+            },
+            "target": 0
+        },
+        {
+            "customer": {
+                "age": 25,
+                "location": {
+                    "city": "Berlin",
+                    "country": "Germany"
+                }
+            },
+            "activity": {
+                "sessions": 5,
+                "avg_duration": 51.08
+            },
+            "purchase": {
+                "amount": 0,
+                "previous_orders": 1
+            },
+            "target": 0
+        },
+        {
+            "customer": {
+                "age": 27,
+                "location": {
+                    "city": "Bangalore",
+                    "country": "India"
+                }
+            },
+            "activity": {
+                "sessions": 10,
+                "avg_duration": 98.28
+            },
+            "purchase": {
+                "amount": 0,
+                "previous_orders": 4
+            },
+            "target": 0
+        },
+        {
+            "customer": {
+                "age": 25,
+                "location": {
+                    "city": "Seattle",
+                    "country": "USA"
+                }
+            },
+            "activity": {
+                "sessions": 36,
+                "avg_duration": 92.91
+            },
+            "purchase": {
+                "amount": 3095.91,
+                "previous_orders": 9
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 46,
+                "location": {
+                    "city": "Berlin",
+                    "country": "Germany"
+                }
+            },
+            "activity": {
+                "sessions": 29,
+                "avg_duration": 39.2
+            },
+            "purchase": {
+                "amount": 1533.85,
+                "previous_orders": 9
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 57,
+                "location": {
+                    "city": "Bangalore",
+                    "country": "India"
+                }
+            },
+            "activity": {
+                "sessions": 48,
+                "avg_duration": 16.41
+            },
+            "purchase": {
+                "amount": 1330.58,
+                "previous_orders": 3
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 28,
+                "location": {
+                    "city": "Bangalore",
+                    "country": "India"
+                }
+            },
+            "activity": {
+                "sessions": 16,
+                "avg_duration": 24.99
+            },
+            "purchase": {
+                "amount": 0,
+                "previous_orders": 1
+            },
+            "target": 0
+        },
+        {
+            "customer": {
+                "age": 46,
+                "location": {
+                    "city": "Berlin",
+                    "country": "Germany"
+                }
+            },
+            "activity": {
+                "sessions": 45,
+                "avg_duration": 73.29
+            },
+            "purchase": {
+                "amount": 1447.64,
+                "previous_orders": 4
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 62,
+                "location": {
+                    "city": "London",
+                    "country": "UK"
+                }
+            },
+            "activity": {
+                "sessions": 30,
+                "avg_duration": 13.19
+            },
+            "purchase": {
+                "amount": 3941.26,
+                "previous_orders": 3
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 45,
+                "location": {
+                    "city": "Seattle",
+                    "country": "USA"
+                }
+            },
+            "activity": {
+                "sessions": 8,
+                "avg_duration": 67.62
+            },
+            "purchase": {
+                "amount": 0,
+                "previous_orders": 10
+            },
+            "target": 0
+        },
+        {
+            "customer": {
+                "age": 70,
+                "location": {
+                    "city": "London",
+                    "country": "UK"
+                }
+            },
+            "activity": {
+                "sessions": 10,
+                "avg_duration": 13.21
+            },
+            "purchase": {
+                "amount": 0,
+                "previous_orders": 2
+            },
+            "target": 0
+        },
+        {
+            "customer": {
+                "age": 46,
+                "location": {
+                    "city": "London",
+                    "country": "UK"
+                }
+            },
+            "activity": {
+                "sessions": 8,
+                "avg_duration": 58.9
+            },
+            "purchase": {
+                "amount": 0,
+                "previous_orders": 4
+            },
+            "target": 0
+        },
+        {
+            "customer": {
+                "age": 50,
+                "location": {
+                    "city": "London",
+                    "country": "UK"
+                }
+            },
+            "activity": {
+                "sessions": 35,
+                "avg_duration": 61.79
+            },
+            "purchase": {
+                "amount": 4448.22,
+                "previous_orders": 1
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 56,
+                "location": {
+                    "city": "London",
+                    "country": "UK"
+                }
+            },
+            "activity": {
+                "sessions": 17,
+                "avg_duration": 7.97
+            },
+            "purchase": {
+                "amount": 4181.43,
+                "previous_orders": 3
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 66,
+                "location": {
+                    "city": "Bangalore",
+                    "country": "India"
+                }
+            },
+            "activity": {
+                "sessions": 44,
+                "avg_duration": 99.46
+            },
+            "purchase": {
+                "amount": 3783.78,
+                "previous_orders": 9
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 51,
+                "location": {
+                    "city": "Berlin",
+                    "country": "Germany"
+                }
+            },
+            "activity": {
+                "sessions": 42,
+                "avg_duration": 55.86
+            },
+            "purchase": {
+                "amount": 2930.79,
+                "previous_orders": 4
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 23,
+                "location": {
+                    "city": "Berlin",
+                    "country": "Germany"
+                }
+            },
+            "activity": {
+                "sessions": 31,
+                "avg_duration": 45.02
+            },
+            "purchase": {
+                "amount": 0,
+                "previous_orders": 5
+            },
+            "target": 0
+        },
+        {
+            "customer": {
+                "age": 28,
+                "location": {
+                    "city": "Bangalore",
+                    "country": "India"
+                }
+            },
+            "activity": {
+                "sessions": 22,
+                "avg_duration": 52.34
+            },
+            "purchase": {
+                "amount": 0,
+                "previous_orders": 7
+            },
+            "target": 0
+        },
+        {
+            "customer": {
+                "age": 70,
+                "location": {
+                    "city": "Berlin",
+                    "country": "Germany"
+                }
+            },
+            "activity": {
+                "sessions": 49,
+                "avg_duration": 68.26
+            },
+            "purchase": {
+                "amount": 1269.47,
+                "previous_orders": 7
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 67,
+                "location": {
+                    "city": "Bangalore",
+                    "country": "India"
+                }
+            },
+            "activity": {
+                "sessions": 26,
+                "avg_duration": 104.46
+            },
+            "purchase": {
+                "amount": 2717.54,
+                "previous_orders": 0
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 21,
+                "location": {
+                    "city": "Berlin",
+                    "country": "Germany"
+                }
+            },
+            "activity": {
+                "sessions": 13,
+                "avg_duration": 64.62
+            },
+            "purchase": {
+                "amount": 3130.79,
+                "previous_orders": 9
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 31,
+                "location": {
+                    "city": "Bangalore",
+                    "country": "India"
+                }
+            },
+            "activity": {
+                "sessions": 18,
+                "avg_duration": 68.16
+            },
+            "purchase": {
+                "amount": 0,
+                "previous_orders": 4
+            },
+            "target": 0
+        },
+        {
+            "customer": {
+                "age": 25,
+                "location": {
+                    "city": "Berlin",
+                    "country": "Germany"
+                }
+            },
+            "activity": {
+                "sessions": 2,
+                "avg_duration": 116.91
+            },
+            "purchase": {
+                "amount": 0,
+                "previous_orders": 9
+            },
+            "target": 0
+        },
+        {
+            "customer": {
+                "age": 37,
+                "location": {
+                    "city": "Seattle",
+                    "country": "USA"
+                }
+            },
+            "activity": {
+                "sessions": 36,
+                "avg_duration": 6.57
+            },
+            "purchase": {
+                "amount": 4961.36,
+                "previous_orders": 6
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 47,
+                "location": {
+                    "city": "Bangalore",
+                    "country": "India"
+                }
+            },
+            "activity": {
+                "sessions": 8,
+                "avg_duration": 79.49
+            },
+            "purchase": {
+                "amount": 0,
+                "previous_orders": 2
+            },
+            "target": 0
+        },
+        {
+            "customer": {
+                "age": 50,
+                "location": {
+                    "city": "London",
+                    "country": "UK"
+                }
+            },
+            "activity": {
+                "sessions": 46,
+                "avg_duration": 36.44
+            },
+            "purchase": {
+                "amount": 1226.22,
+                "previous_orders": 7
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 42,
+                "location": {
+                    "city": "Seattle",
+                    "country": "USA"
+                }
+            },
+            "activity": {
+                "sessions": 13,
+                "avg_duration": 111.01
+            },
+            "purchase": {
+                "amount": 691.18,
+                "previous_orders": 8
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 35,
+                "location": {
+                    "city": "Bangalore",
+                    "country": "India"
+                }
+            },
+            "activity": {
+                "sessions": 50,
+                "avg_duration": 95.85
+            },
+            "purchase": {
+                "amount": 3940.71,
+                "previous_orders": 6
+            },
+            "target": 1
+        },
+        {
+            "customer": {
+                "age": 70,
+                "location": {
+                    "city": "London",
+                    "country": "UK"
+                }
+            },
+            "activity": {
+                "sessions": 1,
+                "avg_duration": 37.53
+            },
+            "purchase": {
+                "amount": 0,
+                "previous_orders": 4
+            },
+            "target": 0
+        },
+        {
+            "customer": {
+                "age": 27,
+                "location": {
+                    "city": "Berlin",
+                    "country": "Germany"
+                }
+            },
+            "activity": {
+                "sessions": 29,
+                "avg_duration": 66.94
+            },
+            "purchase": {
+                "amount": 0,
+                "previous_orders": 5
+            },
+            "target": 0
+        },
+        {
+            "customer": {
+                "age": 47,
+                "location": {
+                    "city": "Berlin",
+                    "country": "Germany"
+                }
+            },
+            "activity": {
+                "sessions": 21,
+                "avg_duration": 105.0
+            },
+            "purchase": {
+                "amount": 0,
+                "previous_orders": 3
+            },
+            "target": 0
+        }
+    ]
+}

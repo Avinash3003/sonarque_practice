@@ -1,0 +1,7 @@
+tensorflow
+tensorboard
+mlflow
+pandas
+scikit-learn
+pytest
+testbook

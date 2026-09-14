@@ -1,0 +1,20 @@
+resources:
+  jobs:
+    ml_training_job:
+      name: "ML Training Job - ${bundle.target}"
+      tasks:
+        - task_key: "train_model"
+          notebook_task:
+            notebook_path: "../notebooks/model_training.ipynb"
+            base_parameters:
+              # We pass these parameters from DAB to the notebook
+              CATALOG_NAME: "${var.catalog_name}"
+              SCHEMA_NAME: "${var.schema_name}"
+              MODEL_NAME: "${var.model_name}"
+              ENVIRONMENT: "${bundle.target}"
+              WORKSPACE_FILE_PATH: "${workspace.file_path}"
+          environment_key: "default_env"
+      environments:
+        - environment_key: "default_env"
+          spec:
+            client: "1"
