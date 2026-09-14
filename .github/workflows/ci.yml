@@ -32,9 +32,7 @@ jobs:
 
     - name: Run unit and integration tests with coverage
       run: |
-        # Run pytest, targeting tests directory.
-        # We use testbook to test notebook logic.
-        python -m pytest tests/ --junitxml=test-reports/junit.xml
+        python -m pytest tests/ --junitxml=test-reports/junit.xml --cov=. --cov-report=xml:coverage.xml
 
     - name: Validate Databricks Asset Bundle
       run: |
@@ -44,8 +42,8 @@ jobs:
         DATABRICKS_TOKEN: ${{ secrets.DATABRICKS_TOKEN }}
 
     # SonarQube scan configuration (commented out until credentials are set)
-    # - name: SonarQube Scan
-    #   uses: SonarSource/sonarcloud-github-action@master
-    #   env:
-    #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    #     SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+    - name: SonarQube Scan
+      uses: SonarSource/sonarcloud-github-action@master
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
