@@ -26,8 +26,9 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
         python -m ipykernel install --user
-        # Install Databricks CLI for DAB validation
-        curl -fsSL https://raw.githubusercontent.com/databricks/setup-cli/main/setup.sh | sh
+
+    - name: Setup Databricks CLI
+      uses: databricks/setup-cli@v0.2.0
 
     - name: Run unit and integration tests with coverage
       run: |
