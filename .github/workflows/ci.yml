@@ -27,8 +27,9 @@ jobs:
         pip install -r requirements.txt
         python -m ipykernel install --user
 
-    - name: Setup Databricks CLI
-      uses: databricks/setup-cli@v0.2.0
+    - name: Install Databricks CLI
+      run: |
+        curl -fsSL https://raw.githubusercontent.com/databricks/setup-cli/main/setup.sh | sudo sh
 
     - name: Run unit and integration tests with coverage
       run: |
