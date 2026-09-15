@@ -2,6 +2,7 @@ tensorflow
 tensorboard
 mlflow
 pandas
+numpy<2.0
 scikit-learn
 pytest
 testbook
