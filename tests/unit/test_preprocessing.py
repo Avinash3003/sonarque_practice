@@ -1,61 +1,85 @@
 import pytest
 import pandas as pd
-from testbook import testbook
+from src.preprocessing import flatten_record, preprocess_records
 
-# Using testbook to execute notebook cells and test logic without converting to .py
-# The preprocessing functions are defined in the cells before or at cell index 10
-# (Index might vary slightly, but testbook allows execution up to a specific tag or index.
-# We'll just execute up to the preprocessing definition cell and test the functions.)
 
-@pytest.fixture(scope="module")
-def tb():
-    # Execute the notebook up to the preprocessing cell
-    with testbook('notebooks/model_training.ipynb', execute=True, timeout=300) as tb:
-        yield tb
+class TestFlattenRecord:
+    """Unit tests for the flatten_record function."""
 
-def test_flatten_record(tb):
-    # Retrieve the function from the notebook namespace
-    flatten_record = tb.ref("flatten_record")
-    
-    # Test dummy data
-    dummy_input = {
-        "customer": {
-            "age": 30,
-            "location": {"city": "Seattle", "country": "USA"}
-        },
-        "activity": {"sessions": 10, "avg_duration": 20.5},
-        "purchase": {"amount": 100, "previous_orders": 2},
-        "target": 1
-    }
-    
-    result = flatten_record(dummy_input)
-    
-    assert result['age'] == 30
-    assert result['city'] == "Seattle"
-    assert result['country'] == "USA"
-    assert result['sessions'] == 10
-    assert result['avg_duration'] == 20.5
-    assert result['previous_orders'] == 2
-    assert result['target'] == 1
+    def test_flatten_record_basic(self):
+        """Test flattening a complete, valid nested record."""
+        dummy_input = {
+            "customer": {
+                "age": 30,
+                "location": {"city": "Seattle", "country": "USA"}
+            },
+            "activity": {"sessions": 10, "avg_duration": 20.5},
+            "purchase": {"amount": 100, "previous_orders": 2},
+            "target": 1
+        }
+        result = flatten_record(dummy_input)
 
-def test_flatten_record_missing_fields(tb):
-    flatten_record = tb.ref("flatten_record")
-    
-    # Empty input should be handled gracefully
-    result = flatten_record({})
-    
-    assert result['age'] == 0
-    assert result['city'] == "Unknown"
-    assert result['target'] == 0
+        assert result['age'] == 30
+        assert result['city'] == "Seattle"
+        assert result['country'] == "USA"
+        assert result['sessions'] == 10
+        assert result['avg_duration'] == 20.5
+        assert result['previous_orders'] == 2
+        assert result['target'] == 1
 
-def test_preprocess_records(tb):
-    # Instead of pulling the DataFrame over the testbook boundary which converts it to a string representation,
-    # we inject the assertion code into the notebook context.
-    tb.inject(
-        "dummy_inputs = [{'customer': {'age': 25}}, {'customer': {'age': 40}}]\n"
-        "df_test = preprocess_records(dummy_inputs)"
-    )
-    
-    assert tb.value("len(df_test)") == 2
-    assert tb.value("int(df_test.iloc[0]['age'])") == 25
-    assert tb.value("int(df_test.iloc[1]['age'])") == 40
+    def test_flatten_record_missing_fields(self):
+        """Test that missing fields fall back to defaults gracefully."""
+        result = flatten_record({})
+
+        assert result['age'] == 0
+        assert result['city'] == "Unknown"
+        assert result['country'] == "Unknown"
+        assert result['sessions'] == 0
+        assert result['avg_duration'] == 0.0
+        assert result['previous_orders'] == 0
+        assert result['target'] == 0
+
+    def test_flatten_record_partial_data(self):
+        """Test flattening a record with only some fields present."""
+        partial_input = {
+            "customer": {"age": 25},
+            "target": 1
+        }
+        result = flatten_record(partial_input)
+
+        assert result['age'] == 25
+        assert result['city'] == "Unknown"
+        assert result['target'] == 1
+
+
+class TestPreprocessRecords:
+    """Unit tests for the preprocess_records function."""
+
+    def test_preprocess_records_returns_dataframe(self):
+        """Test that the output is a pandas DataFrame."""
+        records = [{"customer": {"age": 25}}, {"customer": {"age": 40}}]
+        df = preprocess_records(records)
+
+        assert isinstance(df, pd.DataFrame)
+
+    def test_preprocess_records_row_count(self):
+        """Test that one row is produced per record."""
+        records = [{"customer": {"age": 25}}, {"customer": {"age": 40}}]
+        df = preprocess_records(records)
+
+        assert len(df) == 2
+
+    def test_preprocess_records_correct_values(self):
+        """Test that values are correctly mapped into DataFrame rows."""
+        records = [{"customer": {"age": 25}}, {"customer": {"age": 40}}]
+        df = preprocess_records(records)
+
+        assert int(df.iloc[0]['age']) == 25
+        assert int(df.iloc[1]['age']) == 40
+
+    def test_preprocess_records_empty_input(self):
+        """Test that an empty list returns an empty DataFrame."""
+        df = preprocess_records([])
+
+        assert isinstance(df, pd.DataFrame)
+        assert len(df) == 0
