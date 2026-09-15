@@ -13,7 +13,7 @@ def test_pipeline_execution():
     os.environ['SCHEMA_NAME'] = 'test_schema'
     
     # Ensure data exists for the test to run
-    assert os.path.exists('data/sample_nested.json'), "Run generate_data.py to create the dummy dataset first."
+    assert os.path.exists('data/sample_nested.json'), "Files doesn't Exist"
     
     try:
         # Execute the entire notebook with a higher timeout for TensorFlow initialization

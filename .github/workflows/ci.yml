@@ -41,7 +41,10 @@ jobs:
         DATABRICKS_HOST: ${{ secrets.DATABRICKS_HOST }}
         DATABRICKS_TOKEN: ${{ secrets.DATABRICKS_TOKEN }}
 
-    # SonarQube scan configuration (commented out until credentials are set)
+    - name: Convert Notebooks to Python Scripts for SonarCloud Scan
+      run: |
+        jupyter nbconvert --to script notebooks/*.ipynb
+
     - name: SonarQube Scan
       uses: SonarSource/sonarcloud-github-action@master
       env:

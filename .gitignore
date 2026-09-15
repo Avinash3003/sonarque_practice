@@ -31,6 +31,7 @@ venv/
 .coverage
 htmlcov/
 coverage.xml
+notebooks/*.py
 
 # Databricks
 .databricks/
@@ -39,4 +40,6 @@ coverage.xml
 .DS_Store
 .env
 mlflow.db
+mlruns/
+**/mlruns/
 test-reports/

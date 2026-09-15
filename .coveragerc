@@ -1,8 +1,8 @@
 [run]
 # Use relative file paths so SonarCloud can correctly map coverage data
 relative_files = True
-# Measure coverage for the src/ directory (actual Python source files)
-source = src
+# Measure coverage for notebooks directory
+source = notebooks
 
 [report]
 # Omit virtual environment and cache files

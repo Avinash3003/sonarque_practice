@@ -8,3 +8,4 @@ pytest
 testbook
 ipykernel
 pytest-cov
+nbconvert
